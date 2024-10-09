@@ -3,10 +3,22 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
+import { Comp1Component } from './components/comp1/comp1.component';
+import { ActivePostComponent } from './components/active-post/active-post.component';
+import { InactivePostComponent } from './components/inactive-post/inactive-post.component';
+import { PostDetailComponent } from './components/post-detail/post-detail.component';
+import { NavbarComponent } from './components/navbar/navbar.component';
+import { HomeComponent } from './components/home/home.component';
 
 @NgModule({
   declarations: [
-    AppComponent
+    AppComponent,
+    Comp1Component,
+    ActivePostComponent,
+    InactivePostComponent,
+    PostDetailComponent,
+    NavbarComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
